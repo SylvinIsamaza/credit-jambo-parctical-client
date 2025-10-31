@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Reversal Notice</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #e7e7e7;">
+    <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff;">
+        <!-- Header -->
+        <div style="background-color: #28a745; padding: 20px; text-align: center;">
+            <div style="color: white; font-size: 24px; font-weight: bold;">
+                [Credit Ijambo Logo]
+            </div>
+        </div>
+        
+        <!-- Content -->
+        <div style="padding: 30px;">
+            <h2 style="color: #333; margin-bottom: 20px;">Transaction Reversal Notice</h2>
+            
+            <p style="color: #666; line-height: 1.6; margin-bottom: 20px;">
+                Dear {{firstName}},
+            </p>
+            
+            <p style="color: #666; line-height: 1.6; margin-bottom: 20px;">
+                We are writing to inform you that one of your transactions has been reversed by our administrative team.
+            </p>
+            
+            <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0;">
+                <h3 style="color: #333; margin-top: 0;">Transaction Details:</h3>
+                <p style="margin: 5px 0;"><strong>Transaction ID:</strong> {{transactionId}}</p>
+                <p style="margin: 5px 0;"><strong>Original Type:</strong> {{originalType}}</p>
+                <p style="margin: 5px 0;"><strong>Amount:</strong> RWF {{amount}}</p>
+                <p style="margin: 5px 0;"><strong>Reversal Date:</strong> {{reversalDate}}</p>
+                <p style="margin: 5px 0;"><strong>Reason:</strong> {{reason}}</p>
+            </div>
+            
+            <p style="color: #666; line-height: 1.6; margin-bottom: 20px;">
+                Your account balance has been adjusted accordingly. If you have any questions about this reversal, please contact our support team.
+            </p>
+            
+            <p style="color: #666; line-height: 1.6; margin-bottom: 30px;">
+                Thank you for your understanding.
+            </p>
+            
+            <p style="color: #666; line-height: 1.6;">
+                Best regards,<br>
+                The Credit Ijambo Team
+            </p>
+        </div>
+        
+        <!-- Footer -->
+        <div style="background-color: #f8f9fa; padding: 20px; text-align: center; border-top: 1px solid #dee2e6;">
+            <p style="color: #6c757d; font-size: 12px; margin: 0;">
+                This is an automated message. Please do not reply to this email.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
